@@ -737,5 +737,48 @@
         }
       ]
     }
-  ]
+  ],
+  "presentation": {
+    "default_view": "compact",
+    "progression": [
+      "single words",
+      "tiny practical phrases",
+      "full sentences on request"
+    ],
+    "translation_rule": "Use the shortest locally natural expression that preserves intent and necessary politeness; do not shorten safety-critical meaning.",
+    "required_fields": [
+      "target-language text",
+      "pronunciation",
+      "English meaning",
+      "Brazilian Portuguese meaning",
+      "brief usage context"
+    ],
+    "examples": [
+      {
+        "source_id": "P001",
+        "meaning": "This one",
+        "japanese": "これ",
+        "romaji": "kore",
+        "pt_BR": "este aqui / isto",
+        "usage": "Point to something near yourself."
+      },
+      {
+        "source_id": "P001",
+        "meaning": "This is it / This one",
+        "japanese": "これです",
+        "romaji": "kore desu",
+        "pt_BR": "é este / é este aqui",
+        "usage": "Identify the item you mean; a polite variant, not a request by itself."
+      },
+      {
+        "source_id": "P002",
+        "meaning": "That one (near listener)",
+        "japanese": "それ",
+        "romaji": "sore",
+        "pt_BR": "esse aí / isso",
+        "usage": "Indicate something near the listener."
+      }
+    ],
+    "teaching_rule": "Present one item at a time. Wait for the learner. Offer alternate readings and longer forms only when needed."
+  }
 }
