@@ -199,3 +199,11 @@ Use for any destination language. Preserve all IDs and counts. Add target-langua
 | S089 | I have lost my passport. |
 | S090 | Please contact the police. |
 
+
+## Compact practical mode (2026-10-25)
+
+Default to single words and tiny, immediately usable phrases; show full sentences only when requested or needed for precision. Use the shortest locally natural expression that preserves intent and necessary politeness. Never shorten allergy or emergency meaning unsafely. Preserve the existing 180 IDs and their meanings.
+
+Each item includes target-language text, readable pronunciation, English and Brazilian Portuguese meaning, and a brief real-world use. Audio is provided when available; do not claim an audio link is an embedded recording. Teach one item at a time and wait for the learner. Avoid introducing alternate readings until needed.
+
+Examples: **kore** (これ) = this one / este aqui; **kore desu** (これです) = this is it / é este, identifying an item politely; **sore** (それ) = that one near the listener / esse aí. These are variants of P001/P002, not replacements or new IDs. A phrase identifying an item is not automatically a request to purchase it.
