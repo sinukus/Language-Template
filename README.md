@@ -1,7 +1,8 @@
-# Language Template
+# Language Template — consolidated into Travel Expert
 
-Reusable English foundation for Sin.AI's global, local-first travel helper. Exactly 30 basic words, 60 practical phrases and 90 full transactional sentences. Country and locale packs supply translations, pronunciations and cultural context without changing these stable IDs.
+The canonical language module is now maintained inside [sinukus/travel-expert](https://github.com/sinukus/travel-expert/tree/main/language). The destination is private and requires authorized repository access.
 
-This version was recreated from confirmed user requirements on 2026-10-05. It is not claimed to reproduce the original historical wording.
+This repository is retained as a historical snapshot. Make future content and policy changes in Travel Expert's `language/` directory; do not maintain a separate active copy here.
 
-Language_template.md is the readable template. language_template.json is the machine-readable equivalent. Native STT, TTS and translation resources remain separate from this content.
+Imported source revision: `7f1a5b858b3d86c465da30512be974f920090926`.
+Travel Expert consolidation commit: `e74bbb1bc0b0d3a24f2748a29c7fd467726282d7`.
