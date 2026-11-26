@@ -38,3 +38,14 @@ The original language content was previously consolidated into [Travel Expert's 
 6. Rename this repository to `Language-Prompt`, then update repository links and references.
 
 **Status:** This README documents the agreed direction. The source migration, parser, integration, and repository rename are not yet complete.
+
+## Travel Expert integration TODO — single source of truth
+
+- Replace the copied language prompt in `sinukus/travel-expert/language/Language_template.md` with a **version-pinned reference** to this repository's canonical Markdown. Do not maintain two editable copies.
+- Choose a reproducible consumption mechanism (for example, a pinned Git submodule or a CI-fetched immutable commit), with explicit offline/build behavior. Avoid depending on a live network request at application runtime.
+- Generate and validate any runtime JSON from this Markdown; the generated output must not become another manually edited source of truth.
+- Update links and dependency references after the planned rename to `sinukus/Language-Prompt`.
+- Add CI tests for reference resolution, section IDs, all 180 baseline entries, reproducible generation, and failure when the referenced revision is unavailable or malformed.
+- Only remove the copied file after Travel Expert consumes the external reference successfully and its tests pass. Coordinate the migration in a separate Travel Expert PR.
+
+**Current state:** Travel Expert still contains a copied prompt. Cross-repository consumption is planned, not implemented.
