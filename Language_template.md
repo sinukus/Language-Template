@@ -1,9 +1,12 @@
-# Language Template
+# Language Prompt
+
+<!-- source-language: en; format: markdown; schema-version: 1 -->
 
 Recreated on 2026-10-05 from Stephen Wilson's confirmed requirements; this is a new canonical candidate, not a recovered historical copy.
 
 Use for any destination language. Preserve all IDs and counts. Add target-language text, practical pronunciation, and literal meaning when it helps explain a difference. Keep simple items short. Adapt politeness to local use without changing intent. Explain region-specific variants rather than assuming one country has one language. Allergy entries must retain their precise meaning.
 
+<!-- section-id: basic-words; optional: true -->
 ## 30 basic words
 
 | ID | English |
@@ -39,6 +42,7 @@ Use for any destination language. Preserve all IDs and counts. Add target-langua
 | W029 | Help |
 | W030 | Stop |
 
+<!-- section-id: practical-phrases; optional: true -->
 ## 60 practical phrases
 
 | ID | English |
@@ -104,6 +108,7 @@ Use for any destination language. Preserve all IDs and counts. Add target-langua
 | P059 | Return delivery |
 | P060 | A luggage locker |
 
+<!-- section-id: transactional-sentences; optional: true -->
 ## 90 complete transactional sentences
 
 | ID | English |
@@ -200,6 +205,7 @@ Use for any destination language. Preserve all IDs and counts. Add target-langua
 | S090 | Please contact the police. |
 
 
+<!-- section-id: compact-practical-mode; optional: true -->
 ## Compact practical mode (2026-10-25)
 
 Default to single words and tiny, immediately usable phrases; show full sentences only when requested or needed for precision. Use the shortest locally natural expression that preserves intent and necessary politeness. Never shorten allergy or emergency meaning unsafely. Preserve the existing 180 IDs and their meanings.
